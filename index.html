@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Random GIF Generator</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css" charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+    <script src="app.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <header class="page-header">
+      <h1>Random GIF Generator <small> Weekend Project</small></h1>
+    </header>
+
+<!-- RANDOM GIF GENERATOR -->
+
+    <div class="menu">
+      <span class="label label-info">Random GIF:</span>
+      <div class="random-gif">
+
+        <button type="button" name="gif-button" class="btn btn-default " id="gif-button">Generate GIF</button>
+
+        <form class="form-group">
+          <label class="gif-tag" for="gif-tag">Tag:</label>
+          <input type="text" name="gif-tag" class="form-control" id="gif-tag" placeholder="Optional">
+        </form>
+
+        <div class="gif-image"></div>
+
+      </div>
+    </div>
+
+    <hr></hr>
+
+<!-- RANDOM STICKER GENERATOR -->
+
+    <div class="menu">
+      <span class="label label-info">Random Sticker:</span>
+      <div class="random-sticker">
+
+        <button type="button" name="search-button" class="btn btn-default " id="sticker-button">Generate Sticker</button>
+
+        <form class="form-group">
+          <label class="sticker-tag" for="sticker-tag">Tag:</label>
+          <input type="text" name="sticker-tag" class="form-control" id="sticker-tag" placeholder="Optional">
+        </form>
+
+        <div class="sticker-image"></div>
+
+      </div>
+    </div>
+
+    <hr></hr>
+
+<!-- SEARCH -->
+
+<div class="menu">
+  <span class="label label-info">Search:</span>
+  <div class="search-gifs">
+
+    <button type="button" name="search-button" class="btn btn-default " id="search-button">Search GIFs</button>
+
+    <form class="form-group">
+      <label class="search-tag" for="search-tag">Tag:</label>
+      <input type="text" name="search-tag" class="form-control" id="search-tag" placeholder="Required">
+    </form>
+
+    <div class="search-results"></div>
+    <!-- <div class="search-results2"></div>
+    <div class="search-results3"></div>
+    <div class="search-results4"></div>
+    <div class="search-results5"></div>
+    <div class="search-results6"></div>
+
+    <nav>
+      <ul class="pagination">
+        <li>
+          <a id="prev" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li><a id="page1">1</a></li>
+        <li><a id="page2">2</a></li>
+        <li><a id="page3">3</a></li>
+        <li><a id="page4">4</a></li>
+        <li><a id="page5">5</a></li>
+        <li><a id="page6">6</a></li>
+        <li>
+          <a id="next" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav> -->
+
+  </div>
+</div>
+
+<hr></hr>
+
+
+  </body>
+</html>

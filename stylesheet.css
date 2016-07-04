@@ -1,0 +1,39 @@
+body {
+  margin: 20px 20px;
+}
+hr {
+  height: 3px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+img.img {
+  margin: 10px;
+  box-shadow: 0px 0px 2px gray;
+}
+img.stick {
+  margin: 10px;
+}
+.btn-default {
+  margin-bottom: 15px;
+}
+.label{
+  font-size: 1.5em;
+  display: inline-block;
+  cursor: pointer;
+}
+.form-control {
+  width: 40%;
+}
+.menu {
+  padding: 15px;
+}
+.random-gif, .random-sticker, .search-gifs {
+  margin-left: 20px;
+  margin-top: 15px;
+  display: none;
+}
+.gif-tag, .sticker-tag, .search-tag {
+  font-size: 1.3em;
+  float: left;
+  margin-right: 10px;
+}
