@@ -27,7 +27,7 @@ img.stick {
 .menu {
   padding: 15px;
 }
-.random-gif, .random-sticker, .search-gifs {
+.random-gif, .random-sticker, .search-gifs, .trending-gifs {
   margin-left: 20px;
   margin-top: 15px;
   display: none;
